@@ -1,5 +1,6 @@
 @import "../../fonts/Inter/inter.css";
 
 .page {
+    background-color: var(--clr-ntrl-dk);
     font-family: Inter, Arial, sans-serif;
 }

@@ -1,0 +1,16 @@
+:root {
+    /* цвета */
+    --clr-ntrl-ltr: #ffffff;
+    --clr-ntrl-lt: #AAAAAA;
+    --clr-ntrl-dk: #2A2C2F;
+    --clr-ntrl-dkr: #000000;
+
+    /* размеры шрифта */
+    --fs-xxxl: 40px;
+    --fs-xxl: 32px;
+    --fs-xl: 24px;
+    --fs-l: 18px;
+    --fs-m: 16px;
+    --fs-s: 12px;
+    --fs-xs: 10px;
+}
