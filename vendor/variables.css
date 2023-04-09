@@ -5,12 +5,25 @@
     --clr-ntrl-dk: #2A2C2F;
     --clr-ntrl-dkr: #000000;
 
-    /* размеры шрифта */
-    --fs-xxxl: 40px;
-    --fs-xxl: 32px;
-    --fs-xl: 24px;
-    --fs-l: 18px;
-    --fs-m: 16px;
-    --fs-s: 12px;
-    --fs-xs: 10px;
+    /* нормализованные размеры */
+    --norm-m: clamp(0px, calc((100vw - 1024px) / (1280 - 1024)), 1px);
+    --norm-s: clamp(0px, calc((100vw - 768px) / (1024 - 768)), 1px);
+    --norm-xs: clamp(0px, calc((100vw - 320px) / (768 - 320)), 1px);
+
+    /* размеры шрифта заголовков */
+    --fs-h-xxl: 96;
+    --fs-h-xl: 72;
+    --fs-h-l: 54;
+    --fs-h-m: 42;
+    --fs-h-s: 40;
+    --fs-h-xs: 32;
+
+    /* размеры шрифта текста */
+    --fs-xxl: 30;
+    --fs-xl: 24;
+    --fs-l: 18;
+    --fs-m: 16;
+    --fs-s: 14;
+    --fs-xs: 12;
+    --fs-xxs: 10;
 }
