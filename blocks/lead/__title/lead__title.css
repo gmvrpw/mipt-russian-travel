@@ -1,0 +1,12 @@
+.lead__title {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 calc(16px - 16 * var(--norm-xs));
+    max-width: 720px;
+    width: 100%;
+    line-height: calc(44px + 56 * var(--norm-xs));
+    font-size: calc(1px * var(--fs-h-s) + (var(--fs-h-xxl) - var(--fs-h-s)) * var(--norm-xs));
+    font-weight: 900;
+    text-align: center;
+    color: var(--clr-ntrl-ltr);
+}
