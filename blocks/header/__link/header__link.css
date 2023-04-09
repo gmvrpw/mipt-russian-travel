@@ -1,0 +1,8 @@
+.header__link {
+    line-height: calc(20 + 8 * var(--norm-xs));
+    font-size: calc(1px * var(--fs-l) + (var(--fs-xl) - var(--fs-l)) * var(--norm-xs));
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
