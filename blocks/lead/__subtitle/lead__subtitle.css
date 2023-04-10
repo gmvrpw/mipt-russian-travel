@@ -1,7 +1,7 @@
 .lead__subtitle {
     box-sizing: border-box;
     margin: 0;
-    padding: 0 calc(16px - 16 * var(--norm-xs));
+    padding: 0;
     max-width: 640px;
     width: 100%;
     line-height: calc(20px + 16 * var(--norm-xs));
