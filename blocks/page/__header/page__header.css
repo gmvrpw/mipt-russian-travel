@@ -1,0 +1,12 @@
+.page__header {
+    margin: 0 0 calc(32px - 8 * var(--norm-xs)) 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .page__header {
+        margin: 0
+                calc(-100 * var(--norm-m))
+                calc(24px + 8 * var(--norm-m))
+                calc(-100 * var(--norm-m));
+    }
+}

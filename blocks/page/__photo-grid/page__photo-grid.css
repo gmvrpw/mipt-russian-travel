@@ -1,0 +1,9 @@
+.page__photo-grid {
+
+}
+
+@media screen and (min-width: 1024px) {
+    .page__photo-grid {
+        margin: 0 calc(-100 * var(--norm-m));
+    }
+}

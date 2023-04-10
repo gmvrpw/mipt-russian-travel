@@ -1,0 +1,15 @@
+.page__cover {
+    margin: 0 calc(-16px - 8 * var(--norm-xs));
+}
+
+@media screen and (min-width: 768px) {
+    .page__cover {
+        margin: 0 calc(-24px - 24 * var(--norm-s));
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .page__cover {
+        margin: 0 calc(-48px - 52 * var(--norm-m));
+    }
+}
