@@ -3,4 +3,9 @@
     font-size: var(--fs-l);
     text-decoration: underline;
     color: var(--clr-ntrl-ltr);
+    transition: opacity linear 100ms;
+}
+
+.place__url:hover {
+    opacity: 0.8;
 }
