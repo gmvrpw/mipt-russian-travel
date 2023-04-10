@@ -1,6 +1,9 @@
 @import "../../fonts/Inter/inter.css";
 
 .page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: var(--clr-ntrl-dk);
     font-family: Inter, Arial, sans-serif;
 }

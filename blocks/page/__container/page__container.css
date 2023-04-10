@@ -1,0 +1,17 @@
+.page__container {
+    box-sizing: border-box;
+    padding: 0 calc(16px + 8 * var(--norm-xs));
+    width: clamp(320px, 100%, 1280px);
+}
+
+@media screen and (min-width: 768px) {
+    .page__container {
+        padding: 0 calc(24px + 24 * var(--norm-s));
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .page__container {
+        padding: 0 calc(48px + 100 * var(--norm-m));
+    }
+}
