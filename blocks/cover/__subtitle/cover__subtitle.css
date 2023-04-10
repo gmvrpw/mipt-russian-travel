@@ -1,0 +1,9 @@
+.cover__subtitle {
+    margin: 0;
+    padding: 0;
+    max-width: 360px;
+    line-height: calc(16px + 6 * var(--norm-xs));
+    text-align: center;
+    font-size: calc(1px * var(--fs-s) + (var(--fs-l) - var(--fs-s)) * var(--norm-xs));
+    color: var(--clr-ntrl-ltr);
+}
