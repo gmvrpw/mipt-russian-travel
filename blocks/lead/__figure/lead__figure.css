@@ -5,15 +5,3 @@
     flex-direction: column;
     gap: 8px;
 }
-
-@media screen and (min-width: 768px) {
-    .lead__figure {
-        padding: 0 calc(48 * var(--norm-s));
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .lead__figure {
-        padding: 0 calc(48px + 100 * var(--norm-m));
-    }
-}
