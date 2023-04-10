@@ -1,0 +1,5 @@
+.list__item {
+    line-height: 18px;
+    font-size: calc(1px * var(--fs-xs));
+    color: var(--clr-ntrl-ltr);
+}
