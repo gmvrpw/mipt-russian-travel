@@ -1,4 +1,10 @@
 .cover__background {
     width: 100%;
     z-index: 1;
+    opacity: 0.8;
+    transition: opacity linear 100ms;
+}
+
+.cover__background:hover {
+    opacity: 0.2;
 }

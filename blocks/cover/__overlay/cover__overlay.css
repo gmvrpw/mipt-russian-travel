@@ -10,5 +10,5 @@
     align-items: center;
     justify-content: center;
     gap: calc(16px + 16 * var(--norm-xs));
-    background-color: rgba(42, 44, 47, 20%);
+    pointer-events: none;
 }
