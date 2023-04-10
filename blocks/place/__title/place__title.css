@@ -1,0 +1,15 @@
+.place__title {
+    margin: 0;
+    padding: 0;
+    line-height: calc(36px + 10 * var(--norm-s));
+    font-size: calc(1px * var(--fs-h-xs) + (var(--fs-h-m) - var(--fs-h-xs)) * var(--norm-xs));
+    font-weight: 900;
+    color: var(--clr-ntrl-ltr);
+}
+
+@media screen and (min-width: 768px) {
+    .place__title {
+        line-height: calc(47px + 30 * var(--norm-s));
+        font-size: calc(1px * var(--fs-h-m) + (var(--fs-h-xl) - var(--fs-h-m)) * var(--norm-s));
+    }
+}

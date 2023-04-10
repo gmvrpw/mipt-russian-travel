@@ -1,0 +1,14 @@
+.place__paragraph {
+    margin: 0;
+    padding: 0;
+    line-height: 26px;
+    color: var(--clr-ntrl-ltr);
+    font-size: calc(1px * var(--fs-m));
+}
+
+@media screen and (min-width: 1024px) {
+    .place__paragraph {
+        line-height: calc(26px + 4 * var(--norm-s));
+        font-size: calc(1 * var(--fs-m) + (var(--fs-l) - var(--fs-m)) * var(--norm-s));
+    }
+}

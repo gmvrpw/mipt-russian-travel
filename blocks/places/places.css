@@ -1,0 +1,16 @@
+.place {
+    width: 100%;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: auto;
+    grid-auto-rows: auto;
+    gap: 32px;
+}
+
+@media screen and (min-width: 768px) {
+    .place {
+        grid-auto-flow: column;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, auto);
+    }
+}

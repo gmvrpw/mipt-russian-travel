@@ -1,0 +1,6 @@
+.place__url {
+    line-height: 22px;
+    font-size: var(--fs-l);
+    text-decoration: underline;
+    color: var(--clr-ntrl-ltr);
+}
