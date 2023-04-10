@@ -1,0 +1,11 @@
+.places {
+    display: flex;
+    flex-direction: column;
+    gap: calc(48px + 24 * var(--norm-xs));
+}
+
+@media screen and (min-width: 768px) {
+    .places {
+        gap: calc(72px + 8 * var(--norm-s));
+    }
+}
