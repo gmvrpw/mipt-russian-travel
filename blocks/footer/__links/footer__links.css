@@ -1,0 +1,19 @@
+.footer__links {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    list-style: none;
+    line-height: 24px;
+    font-size: calc(1px * var(--fs-xl));
+}
+
+@media screen and (min-width: 768px) {
+    .footer__links {
+        flex-direction: row;
+        gap: 18px;
+        line-height: 18px;
+        font-size: calc(1px * var(--fs-m));
+    }
+}
