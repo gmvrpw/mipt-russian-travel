@@ -1,0 +1,7 @@
+.footer__copyright {
+    margin: 0;
+    padding: 0;
+    line-height: 16px;
+    font-size: calc(1px * var(--fs-xs));
+    color: var(--clr-ntrl-ltr);
+}

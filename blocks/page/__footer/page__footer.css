@@ -1,9 +1,18 @@
 .page__footer {
-    
+    display: flex;
+    flex-direction: column;
+    margin-top: calc(40px + 24 * var(--norm-xs));
+}
+
+@media screen and (min-width: 768px) {
+    .page__footer {
+        flex-direction: row;
+        align-items: center;
+    }
 }
 
 @media screen and (min-width: 1024px) {
     .page__footer {
-        margin: 0 calc(-100 * var(--norm-m));
+        margin: 64px calc(-100 * var(--norm-m)) 0 calc(-100 * var(--norm-m));
     }
 }
