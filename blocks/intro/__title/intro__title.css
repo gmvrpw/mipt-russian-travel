@@ -1,0 +1,9 @@
+.intro__title {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    line-height: calc(35 + 23 * var(--norm-xs));
+    font-size: calc(1px * var(--fs-h-xs) + (var(--fs-h-l) - var(--fs-h-xs)) * var(--norm-xs));
+    color: var(--clr-ntrl-ltr);
+}
