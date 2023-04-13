@@ -1,8 +1,11 @@
 .cover__background {
     width: 100%;
+    aspect-ratio: 16 / 10;
     z-index: 1;
     opacity: 0.7;
     transition: opacity linear 100ms;
+    background-image: url("../../../images/by_dogs.jpg");
+    background-size: cover;
 }
 
 .cover__background:hover {
