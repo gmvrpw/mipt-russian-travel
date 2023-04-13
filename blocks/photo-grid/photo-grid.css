@@ -1,5 +1,5 @@
 .photo-grid {
-    width: 100%;
+    width: calc(100%);
     display: grid;
     grid-template-columns: 1fr;
     gap: calc(12px + 2 * var(--norm-xs));
@@ -13,6 +13,8 @@
 
 @media screen and (min-width: 1024px) {
     .photo-grid {
+        margin: 0 calc(-100 * var(--norm-m));
+        width: calc(100% + 200 * var(--norm-m));
         grid-template-columns: repeat(3, 1fr);
         gap: calc(12px + 2 * var(--norm-xs));
     }
