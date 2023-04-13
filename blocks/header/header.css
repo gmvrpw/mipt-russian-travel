@@ -3,5 +3,5 @@
     flex-direction: row;
     justify-content: space-between;
     padding: calc(16px + 8 * var(--norm-xs)) 0;
-    height: calc(42px + 10 * var(--norm-xs));
+    min-height: calc(42px + 10 * var(--norm-xs));
 }
