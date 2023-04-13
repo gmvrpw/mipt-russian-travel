@@ -6,4 +6,5 @@
     font-size: 12px;
     color: var(--clr-ntrl-lt);
     font-weight: 400;
+    text-transform: uppercase;
 }

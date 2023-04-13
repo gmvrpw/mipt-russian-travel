@@ -1,9 +1,0 @@
-.place__image-wrapper {
-    margin: 0 calc(-16px - 8 * var(--norm-xs));
-}
-
-@media screen and (min-width: 768px) {
-    .place__image-wrapper {
-        margin: 0;
-    }
-}
