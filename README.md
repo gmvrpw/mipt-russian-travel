@@ -1,5 +1,5 @@
 # Путешествие по России
-> Настоящая страна не в выпусках новостей, а **[здесь](https://gmvrpw.github.io/russian-travel-bootcamp/)**.
+> Настоящая страна не в выпусках новостей, а **[здесь](https://gmvrpw.github.io/russian-travel/)**.
 
 <img src="./images/lead-image.jpg" alt='Вырезка из картины "Опять двойка" Фёдора Решетникова'/>
 
